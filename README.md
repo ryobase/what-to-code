@@ -6,12 +6,12 @@ A loose collection of programming projects that I'd like to start someday
 ## Index
 1. [Command line](#command-line)
 2. [Local, non-interactive tools](#non-interactive)
-3. [Desktop apps](#desktop-apps)
+3. [Desktop apps](#desktop-apps) - GUI-based application, may extend to mobile app as well.
 3. [Games](#games)
 4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like.
-5. [Re-implementations](#re-implementations)- These ideas already exist but they're fun anyway.
+5. [Re-implementations](#re-implementations) - These ideas already exist but they're fun anyway.
 6. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
-7. [Services](#services) - ???
+7. [Services](#services) - like auth0 but not really.
 
 If you make any of these, let me know!
 If you make them and they're not FOSS, don't let me know.
@@ -150,10 +150,10 @@ The log might look like
 ```
 - A program that creates a LERP between two images. maybe specify the amount of frames you want for the lerp?
 i.e.
-```
-tween_images(from_image, to_image, frames=5)
-```
-Would create 5 tween images.
+    ```
+    tween_images(from_image, to_image, frames=5)
+    ```
+    Would create 5 tween images.
 - A program that finds dead functions (ones not used).  
 It finds all functions in a file, greps through each function name.
 If that grep brings back nothing, then it's not used (provided it's
@@ -231,7 +231,9 @@ The amount parameter should be how 'soundexed' the song is on a scale between 0 
 - Defend your castle game
 - The jetpack game: You're a stickman who needs to get to the other side of the map in his jetpack without hitting any obstacles.
 - Sort boxes game: A stream of boxes are coming on a conveyor belt and you need to sort it accordingly.
-- Gameboy Emulator.
+- Gameboy emulator.
+- NES emulator.
+- SNES emulator.
 
 ### Websites
 
@@ -295,7 +297,7 @@ The amount parameter should be how 'soundexed' the song is on a scale between 0 
 <a name="improvements"></a>
 ### Improvements / features
 
-TBD
+   I don't know yet
 
 ### Re-implementations
 
