@@ -4,14 +4,16 @@ Coding Ideas
 A loose collection of programming projects that I'd like to start someday
 
 ## Index
-1. [Command line](#command-line)
-2. [Local, non-interactive tools](#non-interactive)
-3. [Desktop apps](#desktop-apps) - GUI-based application, may extend to mobile app as well.
-3. [Games](#games)
-4. [Improvements/Features](#improvements) - Most of these are pull requests that could be made to improve various thing I like.
-5. [Re-implementations](#re-implementations) - These ideas already exist but they're fun anyway.
-6. [Websites](#websites) - Original website ideas that I'll never get around to doing :(
-7. [Services](#services) - like auth0 but not really.
+- [Coding Ideas](#coding-ideas)
+  - [Index](#index)
+    - [Command line](#command-line)
+    - [Local, non-interactive (command-line / daemon)](#local-non-interactive-command-line--daemon)
+    - [Desktop apps](#desktop-apps)
+    - [Games](#games)
+    - [Websites](#websites)
+    - [Services](#services)
+    - [Improvements / features](#improvements--features)
+    - [Re-implementations](#re-implementations)
 
 If you make any of these, let me know!
 If you make them and they're not FOSS, don't let me know.
@@ -30,6 +32,11 @@ If you make them and they're not FOSS, don't let me know.
   /etc/grub.d
   ```
 - An SQL parser to report better error messages than the god awful MySQL ones. Ideally build it using Bison and Flex so we don't have a bad time reinventing the wheel. 
+
+**In progress** 
+[sql-lint](https://github.com/joereynolds/sql-lint)
+
+
 - A program that can split one file into many. For example, I had a csv file that was 300mb and could not do any processing with it because it was so big. All the other alternatives that I checked out were either slow or not very user friendly. It should work on any file type, not just csv's. There is a good one [here](https://github.com/imartingraham/csv-split) but I feel it could be made faster in C or Rust.
 - A front end to gtags-cscope
 - A program to generate kitchen sink pages for you automatically. i.e. If you want to know what a component looks like, point it to a CSS file and it will generate permutations of it. For example (Sass example below but should work for either)
@@ -138,6 +145,8 @@ i.e.:
 - A 'level' generator for DND. Generates a maze, treasure, and enemies. You get to choose the level and it generates creatures/treasure suitable for that character level.
 - Interactive Apache - Learn apache configuration from the command line. It should be similar to [githug](https://github.com/Gazler/githug) in the way it works.
 - MySQL linter - Given a file, it'll show you where the errors are, what possible caused those errors (instead of the god awful mysql error reporting) etc...
+**In progress** 
+[sql-lint](https://github.com/joereynolds/sql-lint)
 - OCR. Submit an image and it tries to read the text of the image.
 - A log parser for HOMMV log files. Must be realtime (I.E. ```tail -f```). Use electron.
 - A glyph generator. It creates a glyph for each letter of the alphabet and saves it in a font file.
@@ -174,7 +183,6 @@ It should have an API similar  to this
 The amount parameter should be how 'soundexed' the song is on a scale between 0 - 1. 1 would be every word, 0 would be no words.
 - Given an image, you should convert it into a text-based equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
 - Given an audio file of someone dialling a number, approximate the number dialled from the frequency of each tone. See http://en.wikipedia.org/wiki/Telephone_keypad for details.
-- Just like "inotify" tracks creation/modification of files, create something that allows one to track modification of individual  **blocks** of specific files.  This probably needs to be a kernel module.
 - A graph-based single-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
 
 
