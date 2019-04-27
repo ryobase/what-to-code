@@ -184,6 +184,7 @@ The amount parameter should be how 'soundexed' the song is on a scale between 0 
 - Given an image, you should convert it into a text-based equivalent. For example: https://github.com/joereynolds/Image-to-Ascii
 - Given an audio file of someone dialling a number, approximate the number dialled from the frequency of each tone. See http://en.wikipedia.org/wiki/Telephone_keypad for details.
 - A graph-based single-file compression algorithm with the name `jan`, so that we can have file with a [`.tar.jan`](https://en.wikipedia.org/wiki/Robert_Tarjan#Algorithms_and_data_structures).  (If you don't want to click the link: Robert Tarjan developed a bunch of cool algorithms and data structures regarding graphs.)
+- Game of life on Atmel microcontroller like this one https://www.instructables.com/id/Arduino-based-Bi-color-LED-Matrix-Game-of-Life/
 
 
 ### Desktop apps
@@ -231,6 +232,7 @@ The amount parameter should be how 'soundexed' the song is on a scale between 0 
 - A desktop app that uses the notifications api to push any PHP errors to it.
   (If errors are too frequent, think of a better way)
 - A desktop mailing list manager.
+- Yet another GUI bittorrent client with GO and Electron.
 
 ### Games
 
@@ -301,6 +303,7 @@ The amount parameter should be how 'soundexed' the song is on a scale between 0 
 - An open source, free hostel booking program similar to dorm booker, but free and more featureful
 - Pokemon cry analyser - given a pokemons cry, analyse the waveform and return back the pokemon it came from.
 - A RaspberryPi controlled, voice recognition software, which tracks the WTF / minutes in the office and outputs a nice chart of employee productivity. Reference: https://i.imgur.com/J1svNp7.jpg
+- A web application that acts as a media center. It should be able to stream music and movies directly to the client device.
 
 <a name="improvements"></a>
 ### Improvements / features
